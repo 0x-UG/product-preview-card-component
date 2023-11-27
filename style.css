@@ -1,0 +1,74 @@
+body {
+	font-family: "Fraunces", "Montserrat";
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 40px;
+	background-color: hsl(30, 38%, 92%);
+}
+
+img {
+	max-width: 20rem;
+	border-radius: 20px 0 0 20px;
+}
+
+.content-box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-style: none;
+	border-radius: 20px;
+	max-width: 40rem;
+	box-sizing: border-box;
+	background-color: white;
+}
+
+.price-description {
+	display: flex;
+	flex-direction: column;
+	padding: 0 30px;
+}
+
+h1 {
+	margin: 0;
+	font-weight: 700;
+}
+
+.mont-font {
+	font-family: "Montserrat";
+	line-height: 1.5;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+button {
+	border-radius: 10px;
+	height: 3rem;
+	border-style: none;
+	background: rgb(42, 112, 42);
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.prices {
+	display: flex;
+	padding-top: 20px;
+	gap: 15px;
+	margin-top: -40px;
+}
+
+.new-price {
+	font-weight: 700;
+	font-size: 2rem;
+}
+
+.slashed-price {
+	align-self: center;
+	font-family: "Montserrat";
+	text-decoration-line: line-through;
+}
