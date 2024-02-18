@@ -73,3 +73,17 @@ button {
 	font-family: "Montserrat";
 	text-decoration-line: line-through;
 }
+
+@media (max-width: 600px) {
+	.content-box {
+		display: block;
+
+		flex-shrink: 0;
+		padding: 1em;
+		border-radius: 0;
+	}
+
+	.image {
+		border-radius: 0;
+	}
+}
