@@ -74,7 +74,7 @@ button {
 	text-decoration-line: line-through;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
 	.content-box {
 		display: block;
 
